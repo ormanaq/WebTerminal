@@ -25,7 +25,7 @@ eventlet
 1. Clone the repository:
 ```bash
 git clone https://github.com/ormanaq/WebTerminal.git
-cd web-terminal
+cd WebTerminal
 ```
 
 2. Install the required packages:
@@ -49,7 +49,7 @@ sudo apt install python3 python3-pip
 3. Clone and setup:
 ```bash
 git clone https://github.com/ormanaq/WebTerminal.git
-cd web-terminal
+cd WebTerminal
 pip3 install flask flask-socketio python-socketio eventlet
 ```
 
