@@ -30,7 +30,7 @@ cd WebTerminal
 
 2. Install the required packages:
 ```bash
-pip install flask flask-socketio python-socketio eventlet
+pip3 install flask flask-socketio python-socketio flask-cors eventlet gunicorn
 ```
 
 ## Running on VPS
@@ -50,7 +50,7 @@ sudo apt install python3 python3-pip
 ```bash
 git clone https://github.com/ormanaq/WebTerminal.git
 cd WebTerminal
-pip3 install flask flask-socketio python-socketio eventlet
+pip3 install flask flask-socketio python-socketio flask-cors eventlet gunicorn
 ```
 
 4. Run the application:
